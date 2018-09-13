@@ -174,7 +174,10 @@ header{
     display:flex;
     height: 83%;
     width: 100%;
-
+    transition: 1s;
+}
+.item--image:hover{
+    opacity: .6;
 }
 .item--detail{
     display:flex;
